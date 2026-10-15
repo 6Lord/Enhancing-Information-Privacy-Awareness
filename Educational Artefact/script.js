@@ -1,23 +1,23 @@
 const questions = [
   {
     domain: "Recognising information and risk",
-    question: "You ask an AI assistant to improve an assignment paragraph. Which detail should you remove first?",
+    question: "You ask an AI assistant to improve a work report. Which detail should you remove first?",
     options: [
       "The subject of the paragraph",
-      "Your name, student number and any private details about classmates",
+      "Your name, client account number and any private colleague details",
       "The instruction to improve the writing",
-      "The fact that it is an assignment"
+      "The fact that it is a work report"
     ],
     correct: 1,
-    explanation: "Names, student numbers and details about other people are identifying information. Remove what the AI does not need before using the tool."
+    explanation: "Names, account numbers and details about other people are identifying information. Remove what the AI does not need before using the tool."
   },
   {
     domain: "Recognising information and risk",
-    question: "A screenshot of class feedback has names blurred, but shows a school badge and a learner’s marked work. Is it automatically anonymous?",
+    question: "A screenshot has names blurred, but shows an employer logo and a distinctive customer case. Is it automatically anonymous?",
     options: [
       "Yes, because the names are hidden",
       "Yes, if it is uploaded only to an AI tool",
-      "No; marks, school context or other clues may still identify people",
+      "No; the case, workplace context or other clues may still identify people",
       "No, but only if the screenshot has a location tag"
     ],
     correct: 2,
@@ -33,14 +33,14 @@ const questions = [
       "Only images can contain private information"
     ],
     correct: 1,
-    explanation: "Some services may log or retain prompts under their terms and settings. Check the actual tool and follow school rules; do not guess or assume."
+    explanation: "Some services may log or retain prompts under their terms and settings. Check the actual tool and follow workplace policies; do not guess or assume."
   },
   {
     domain: "Recognising information and risk",
-    question: "A learner uploads a voice recording to get a transcript. What should they consider?",
+    question: "You upload a voice recording to get a transcript. What should you consider?",
     options: [
       "Only whether the recording is short",
-      "Whether the recording contains their or another person’s voice, identity or private conversation",
+      "Whether the recording contains your or another person’s voice, identity or private conversation",
       "Whether the AI can add background music",
       "Nothing, because audio is not personal information"
     ],
@@ -49,45 +49,45 @@ const questions = [
   },
   {
     domain: "Choosing and minimising",
-    question: "Your school has not confirmed whether a free AI chatbot is approved. What is the safest next step?",
+    question: "Your employer has not confirmed whether a free AI chatbot is appropriate for work. What is the safest next step?",
     options: [
-      "Upload a real class document to test it",
+      "Upload a real client document to test it",
       "Use it for private information if the response looks helpful",
-      "Ask a teacher or administrator and use only information permitted by school rules",
-      "Create a second account to avoid the rules"
+      "Check workplace policy with your manager or IT/privacy contact before using it for work information",
+      "Create a second account to avoid workplace rules"
     ],
     correct: 2,
-    explanation: "Check whether the specific tool is approved for the task before sharing school or personal information. When unsure, pause and ask."
+    explanation: "Check whether the specific tool is permitted for the task before sharing work information. When unsure, pause and ask an appropriate workplace contact."
   },
   {
     domain: "Choosing and minimising",
-    question: "You want AI to draft a polite request for an extension because of a personal matter. Which prompt is safer?",
+    question: "You want AI to draft a polite message requesting a meeting about a personal matter. Which prompt is safer?",
     options: [
-      "Include your full name, student number and medical history",
-      "Upload the teacher’s private messages and ask the AI to decide",
-      "Ask for a polite extension request without including identifying or sensitive details",
-      "Paste your whole school record so the AI has context"
+      "Include your full name, employer ID and detailed medical history",
+      "Upload a manager’s private messages and ask the AI to decide",
+      "Ask for a polite meeting request without including identifying or sensitive details",
+      "Paste your complete HR record so the AI has context"
     ],
     correct: 2,
-    explanation: "The AI can help with wording without knowing your identity or medical details. Share only what is necessary for the task."
+    explanation: "The AI can help with wording without knowing your identity or health details. Share only what is necessary for the task."
   },
   {
     domain: "Choosing and minimising",
-    question: "An AI assistant is asked to explain a science concept. Which input is most appropriate?",
+    question: "You ask AI for ideas for a weekend meal plan. Which input is most appropriate?",
     options: [
-      "A fictional question about the science concept and the learner’s grade level",
-      "A class list so the answer can mention classmates",
-      "A real learner’s medical report",
-      "A screenshot of the class portal including names and marks"
+      "General food preferences and a budget range",
+      "A friend’s private health records",
+      "A photo of your bank card and recent transactions",
+      "A complete medical history when no health advice is needed"
     ],
     correct: 0,
-    explanation: "A fictional, task-relevant prompt gives useful context without exposing real people’s information."
+    explanation: "General preferences provide useful context without exposing unnecessary financial or health information."
   },
   {
     domain: "Choosing and minimising",
-    question: "A prompt includes a classmate’s name and personal story, but the name is not needed for the task. What should you do?",
+    question: "A prompt includes a colleague’s name and personal story, but they are not needed for the task. What should you do?",
     options: [
-      "Keep it because the classmate is not using the tool",
+      "Keep it because the colleague is not using the tool",
       "Replace the name and remove or generalise details that could identify them",
       "Add more details so the AI understands the person",
       "Ask the AI to keep the story secret"
@@ -100,7 +100,7 @@ const questions = [
     question: "A tool offers a privacy setting that controls whether chats are used to improve the service. What should you do?",
     options: [
       "Assume switching the setting makes every use or storage impossible",
-      "Check what the setting actually covers, the service terms and any school rules",
+      "Check what the setting actually covers, the service terms and any workplace policy",
       "Ignore the setting because it cannot matter",
       "Enter private information first and review the setting later"
     ],
@@ -109,109 +109,109 @@ const questions = [
   },
   {
     domain: "Reviewing AI output responsibly",
-    question: "An AI-generated explanation includes a confident historical date you do not recognise. What should you do before using it?",
+    question: "An AI-generated client response includes a product detail you do not recognise. What should you do before sending it?",
     options: [
       "Use it because confident answers are usually correct",
-      "Ask the same AI to repeat the date",
+      "Ask the same AI to repeat the product detail",
       "Verify it using a trusted source and correct or remove it",
-      "Add a classmate’s personal information to improve accuracy"
+      "Add a customer’s private information to make the answer sound more specific"
     ],
     correct: 2,
-    explanation: "Generative AI can make plausible-sounding errors. Verify important claims using reliable sources before relying on or sharing them."
+    explanation: "Generative AI can make plausible-sounding errors. Verify important claims using reliable sources and authorised records before relying on or sharing them."
   },
   {
     domain: "Reviewing AI output responsibly",
-    question: "An AI tool suggests that a learner is lazy based on a short paragraph. How should you treat that judgement?",
+    question: "An AI tool suggests that a job applicant is unreliable based on a short profile. How should you treat that judgement?",
     options: [
       "As an objective fact because a computer produced it",
       "As a conclusion to check critically; it may be biased or unsupported",
-      "As a reason to share the learner’s private record with the class",
-      "As a substitute for speaking with the learner or educator"
+      "As a reason to share the applicant’s private details with colleagues",
+      "As a substitute for fair, evidence-based human review"
     ],
     correct: 1,
-    explanation: "AI outputs can reflect bias or make unsupported judgements. Do not use them to label or make important decisions about people without careful human review."
+    explanation: "AI outputs can reflect bias or make unsupported judgements. Do not rely on them for consequential decisions about people without careful, fair human review."
   },
   {
     domain: "Reviewing AI output responsibly",
-    question: "Before sharing an AI-generated draft with your class, what should you check?",
+    question: "Before sending an AI-generated draft to a client, what should you check?",
     options: [
       "Only whether it sounds fluent",
-      "Accuracy, fairness, private details and whether sharing it is allowed",
-      "Whether it includes a real classmate’s name",
+      "Accuracy, fairness, confidential details and whether the content is authorised",
+      "Whether it includes a real colleague’s name",
       "Nothing; the AI is responsible for the draft"
     ],
     correct: 1,
-    explanation: "A person remains responsible for checking AI-generated work. Review its facts, possible bias, information exposure and whether its use is permitted."
+    explanation: "A person remains responsible for checking AI-generated content. Review its facts, possible bias, confidential information and workplace requirements."
   },
   {
     domain: "Responding and taking responsibility",
-    question: "You accidentally paste a private learner detail into an AI tool. What should you do?",
+    question: "You accidentally paste confidential client information into an AI tool. What should you do?",
     options: [
       "Ignore it because the prompt cannot be retrieved",
-      "Follow the tool’s available deletion or reporting steps and promptly tell the responsible teacher or administrator",
+      "Follow available deletion or reporting steps and promptly notify your manager or workplace privacy/IT contact",
       "Paste the detail again and ask the AI to forget it",
-      "Send a screenshot of the prompt to classmates"
+      "Send a screenshot of the prompt to colleagues who do not need it"
     ],
     correct: 1,
-    explanation: "Do not repeat or spread the information. Use available service controls and report promptly through the school’s process so appropriate steps can be taken."
+    explanation: "Do not repeat or spread the information. Use available service controls and report promptly through your organisation’s incident process."
   },
   {
     domain: "Responding and taking responsibility",
-    question: "An AI answer includes a classmate’s private detail that you entered in a prompt. What should you do with the answer?",
+    question: "An AI answer includes a colleague’s private detail that you entered in a prompt. What should you do with the answer?",
     options: [
       "Share it so people can check whether it is true",
-      "Remove the private detail, do not circulate the original and report the exposure to a trusted educator",
+      "Do not circulate it; remove the detail from any draft and report the exposure through the appropriate workplace channel",
       "Ask the AI to make the detail more specific",
       "Post it anonymously without changing anything"
     ],
     correct: 1,
-    explanation: "Do not increase the audience for exposed information. Avoid further sharing, remove what you can from your copy and report it to the appropriate person."
+    explanation: "Do not increase the audience for exposed information. Avoid further sharing, remove what you can from your copy and report it to the appropriate workplace contact."
   },
   {
     domain: "Responding and taking responsibility",
-    question: "Who is responsible for checking an AI answer before using it in schoolwork?",
+    question: "Who is responsible for checking an AI answer before using it for a work or personal task?",
     options: [
       "Only the AI provider",
-      "The learner or person using it, with support from a teacher when needed",
+      "The person using it, with appropriate professional review for consequential work",
       "The first person who reads the answer",
       "No one, if the answer sounds convincing"
     ],
     correct: 1,
-    explanation: "AI is a tool, not an accountable decision-maker. The person using its output must check it and follow school guidance."
+    explanation: "AI is a tool, not an accountable decision-maker. The person using its output must check it and follow relevant workplace policies or personal safety judgement."
   }
 ];
 
 const preAssessmentQuestions = [
   {
     domain: "Recognising information and risk",
-    question: "Which prompt contains the most information that could identify a learner?",
+    question: "Which prompt contains the most information that could identify a customer?",
     options: [
-      "Explain photosynthesis in simple terms",
-      "Give feedback on this paragraph from a learner in Grade 9 at Green Valley School, student number 48217",
-      "Suggest a fictional science experiment",
-      "Describe how to structure a short essay"
+      "Explain a common household task",
+      "Summarise a customer case including the customer's name, account number 48217 and appointment details",
+      "Suggest a fictional example",
+      "Describe how to structure a short business report"
     ],
     correct: 1
   },
   {
     domain: "Choosing and minimising",
-    question: "You are unsure whether an AI tool is allowed for classwork. What should you do before using it?",
+    question: "You are unsure whether an AI tool is appropriate for a work task. What should you do before using it?",
     options: [
-      "Upload a real assignment to test the service",
-      "Check with a teacher and review the tool’s rules for the task",
-      "Use a personal account to avoid school policies",
+      "Upload a real client file to test the service",
+      "Check workplace policy with your manager or IT/privacy contact and review the tool’s terms",
+      "Use a personal account to avoid workplace policy",
       "Assume it is allowed if it is free"
     ],
     correct: 1
   },
   {
     domain: "Choosing and minimising",
-    question: "You need help writing a polite message to request an extension. What information is usually enough?",
+    question: "You need AI to help draft a message requesting a meeting about a personal matter. What information is usually enough?",
     options: [
-      "Your student number and full medical history",
-      "The teacher’s private contact details",
+      "Your employer ID and full medical history",
+      "Your manager’s private contact details",
       "The writing task and a general reason such as a personal matter",
-      "Your full school record"
+      "Your complete HR file"
     ],
     correct: 2
   },
@@ -222,17 +222,17 @@ const preAssessmentQuestions = [
       "Trust it because the answer sounds confident",
       "Verify it with a reliable source before using it",
       "Ask the AI to repeat the answer with more confidence",
-      "Share it with classmates and let them decide"
+      "Send it to colleagues and let them guess"
     ],
     correct: 1
   },
   {
     domain: "Responding and taking responsibility",
-    question: "You accidentally include a private detail about a classmate in an AI prompt. What should you do?",
+    question: "You accidentally include a client’s private detail in an AI prompt. What should you do?",
     options: [
       "Repeat the prompt and ask the AI to forget it",
-      "Tell classmates so they can help",
-      "Stop sharing it and promptly tell a responsible teacher or administrator",
+      "Tell colleagues broadly so they can help",
+      "Stop sharing it and promptly report it through the appropriate workplace channel",
       "Assume nothing can be done"
     ],
     correct: 2
@@ -242,9 +242,9 @@ const preAssessmentQuestions = [
 const postAssessmentQuestions = [
   {
     domain: "Recognising information and risk",
-    question: "A learner removes their name from a screenshot but leaves a school badge, unique marks and a timetable visible. What is the privacy concern?",
+    question: "A person removes a customer's name from a screenshot but leaves an employer logo, job title and distinctive case details visible. What is the privacy concern?",
     options: [
-      "The details could still identify the learner when combined",
+      "The details could still identify the customer or organisation when combined",
       "There is no concern if the name is missing",
       "Only the image file size matters",
       "AI tools cannot read screenshots"
@@ -256,41 +256,41 @@ const postAssessmentQuestions = [
     question: "A privacy setting says chats may not be used to improve an AI model. What should you conclude?",
     options: [
       "The service cannot process or retain the chat for any reason",
-      "The setting is one detail to check alongside the terms and school rules",
+      "The setting is one detail to check alongside the service terms and workplace policy",
       "It is safe to upload any personal record",
-      "The setting means the tool is automatically approved by your school"
+      "The setting means the tool is automatically approved by your employer"
     ],
     correct: 1
   },
   {
     domain: "Choosing and minimising",
-    question: "You want AI to suggest ways to improve a science explanation. Which input best follows data minimisation?",
+    question: "You want AI to suggest ways to improve a customer-service email. Which input best follows data minimisation?",
     options: [
-      "A real class report with learner names and marks",
-      "A fictional example of the concept and the type of feedback you need",
-      "A private voice note from a classmate",
-      "Your full account details so the AI knows who you are"
+      "The full customer record with name, account number and complaint history",
+      "A fictional example of the situation and the type of tone or feedback you need",
+      "A private voice note from a colleague",
+      "Your work login details so the AI knows who you are"
     ],
     correct: 1
   },
   {
     domain: "Reviewing AI output responsibly",
-    question: "An AI tool labels a learner as dishonest based only on a short paragraph. How should the label be used?",
+    question: "An AI tool labels a job applicant as dishonest based only on a short profile. How should the label be used?",
     options: [
       "Treat it as a proven fact",
-      "Share it with the class as a warning",
-      "Do not rely on it; AI can make unsupported or biased judgements, and a person must review evidence",
-      "Ask the AI to assign a punishment"
+      "Share it with the hiring team as a fact",
+      "Do not rely on it; AI can make unsupported or biased judgements, and a person must fairly review evidence",
+      "Ask the AI to reject the applicant"
     ],
     correct: 2
   },
   {
     domain: "Responding and taking responsibility",
-    question: "An AI output repeats private information about another learner. What is the most responsible action?",
+    question: "An AI output repeats private information about a colleague. What is the most responsible action?",
     options: [
       "Forward it so others can confirm the information",
-      "Avoid circulating it and report the exposure through a trusted school channel",
-      "Post it without the learner’s name",
+      "Avoid circulating it and report the exposure through an appropriate workplace channel",
+      "Post it without the colleague’s name",
       "Ask the AI to add more private details"
     ],
     correct: 1
@@ -422,7 +422,7 @@ if (preAssessmentForm && preAssessmentItems && preAssessmentStatus) {
       answers[index] === question.correct
     ).length;
     preAssessmentForm.dataset.answers = JSON.stringify(answers);
-    preAssessmentStatus.textContent = `Starting check recorded: ${preAssessmentScore} of 5. Now study the lessons and complete the follow-up check. Answers are not revealed before learning.`;
+    preAssessmentStatus.textContent = `Starting check recorded: ${preAssessmentScore} of 5. Now review the lessons and complete the follow-up check. Answers are not revealed before learning.`;
     disableAssessmentForm(preAssessmentForm);
   });
 }
@@ -531,7 +531,7 @@ function showResults() {
     })
     .join("");
   let heading = "Great work!";
-  let message = "You are applying the AI privacy principles well. Keep using the P.A.U.S.E. check and review school guidance when tools or settings change.";
+  let message = "You are applying the AI privacy principles well. Keep using the P.A.U.S.E. check and review workplace policy and service terms when tools or settings change.";
 
   if (percentage < 50) {
     heading = "There is room to improve";
